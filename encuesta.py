@@ -35,7 +35,7 @@ class Estudiantes:
 def main ():
     encuesta = Estudiantes()
 
-    for i in range(11):
+    for i in range(10):
         datos = encuesta.pedir_datos()
         encuesta.agregar_respuesta(datos)
 
