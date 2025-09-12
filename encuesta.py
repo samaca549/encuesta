@@ -14,9 +14,9 @@ class Estudiantes:
         return {
             "nombre": nombre,
             "proyecto": proyecto,
-            "trabajo": trabajo_en_grupo,
+            "trabajo": trabajo,
             "edad": edad,
-            "temas": temas_preferidos
+            "temas": temas
         }
 
     def agregar_respuesta(self, respuesta):
@@ -47,3 +47,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
